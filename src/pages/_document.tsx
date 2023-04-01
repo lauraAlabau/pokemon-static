@@ -19,7 +19,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="ee">
+      <Html lang="es">
         <Head>{CssBaseline.flush()}</Head>
         <body>
           <Main />

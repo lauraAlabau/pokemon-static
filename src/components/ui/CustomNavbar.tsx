@@ -1,4 +1,4 @@
-import { Navbar, Button, Text } from "@nextui-org/react";
+import { Navbar, Text } from "@nextui-org/react";
 import Image from "next/image";
 
 export const CustomNavbar = () => {
@@ -20,7 +20,7 @@ export const CustomNavbar = () => {
           </Text>
         </Navbar.Brand>
         <Navbar.Content>
-          <Navbar.Link href="#">Favoritos</Navbar.Link>
+          <Navbar.Link href="/favourites">Favoritos</Navbar.Link>
           {/* <Navbar.Link color="inherit" href="#">
             Login
           </Navbar.Link>
