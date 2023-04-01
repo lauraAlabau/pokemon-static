@@ -1,6 +1,7 @@
 import { FC, ReactNode } from "react";
 
 import Head from "next/head";
+import { CustomNavbar } from "../ui";
 
 interface LayoutProps {
   children?: ReactNode;
@@ -20,9 +21,9 @@ export const Layout: FC<LayoutProps> = ({ children, title = "PokemonApp" }) => {
         <meta name="keywords" content={`${title}, pokemon, pokedex`} />
       </Head>
 
-      {/* Navbar */}
+      <CustomNavbar/>
 
-      <main>{children}</main>
+      <main style={{ padding: '10px 20px'}}>{children}</main>
     </>
   );
 };
